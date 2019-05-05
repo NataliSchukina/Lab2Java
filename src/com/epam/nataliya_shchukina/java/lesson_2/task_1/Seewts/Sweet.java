@@ -1,4 +1,4 @@
-package Seewts;
+package com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts;
 
 abstract public class Sweet {
     /*супер класс сладость*/
@@ -29,7 +29,7 @@ abstract public class Sweet {
 
     @Override
     public String toString() {
-        return "Seewts.Sweet:";
+        return "Sweet:";
     }
 }
 

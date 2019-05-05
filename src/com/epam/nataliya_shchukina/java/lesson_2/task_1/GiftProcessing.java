@@ -1,9 +1,9 @@
 package com.epam.nataliya_shchukina.java.lesson_2.task_1;
 
-import Seewts.Biscuits;
-import Seewts.Candy;
-import Seewts.Chocolate;
-import Seewts.Sweet;
+import com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts.Biscuits;
+import com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts.Candy;
+import com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts.Chocolate;
+import com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts.Sweet;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class GiftProcessing {
     public static Sweet[] initGift() {    //инициализация массива
         return new Sweet[]{
                 new Candy("Lastochka", 23.56f, 56.78f, "Vanila"),
-                new Candy("Mask", 22.36f, 87.54f, "Seewts.Chocolate"),
+                new Candy("Mask", 22.36f, 87.54f, "Chocolate"),
                 new Candy("Mars", 36.45f, 65.43f, "Nougat"),
                 new Candy("Snickers", 40.56f, 56.87f, "Nuts"),
                 new Chocolate("Alpen Gold", 56.90f, 123.76f, " darkChocolate"),

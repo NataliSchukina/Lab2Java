@@ -1,6 +1,4 @@
-package Seewts;
-
-import Seewts.Sweet;
+package com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts;
 
 public class Candy extends Sweet {
     /*конфета*/
@@ -17,7 +15,7 @@ public class Candy extends Sweet {
 
     @Override
     public String toString() {
-        return "Seewts.Candy  Name:" + "\t" + getName() + ", Weight: " + getWeight() + ", Price:" + getPrice() +
-                ", Topping: " + getTopping();
+        return "Candy Name:" + "\t" + getName() + "," + "\t"+ "Weight: " + getWeight() + ","+ "\t" +
+                " Price: " + getPrice() + "," +  "\t" + "Topping: " + getTopping();
     }
 }

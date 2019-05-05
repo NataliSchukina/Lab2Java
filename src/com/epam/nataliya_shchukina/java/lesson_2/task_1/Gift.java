@@ -1,6 +1,6 @@
 package com.epam.nataliya_shchukina.java.lesson_2.task_1;
 
-import Seewts.Sweet;
+import com.epam.nataliya_shchukina.java.lesson_2.task_1.Seewts.Sweet;
 
 import java.util.Scanner;
 
