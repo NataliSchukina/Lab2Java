@@ -28,8 +28,6 @@ abstract public class Sweet {
 
 
     @Override
-    public String toString() {
-        return "Sweet:";
-    }
+    public abstract String toString();
 }
 
